@@ -1,5 +1,8 @@
-       collection = ['ruby', 'javascript', 'python', 'objective-c']
-def my_collect(collection) 
+def my_collect(students)
+  students.each do |student|
+    i = 0 
+    while i < students.length 
+     
   
 end
 
