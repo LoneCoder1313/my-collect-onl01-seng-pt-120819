@@ -1,6 +1,6 @@
 def my_collect(students)
   students.each do |student|
-    s
+    student.split(" ").first 
   end 
   students
 end
