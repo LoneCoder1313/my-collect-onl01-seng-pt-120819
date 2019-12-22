@@ -8,4 +8,3 @@ end
   name_collection
 end
 
-my_collect(students) {|i| i.split(" ").first}
