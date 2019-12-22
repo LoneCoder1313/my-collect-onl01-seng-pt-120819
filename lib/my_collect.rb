@@ -3,7 +3,7 @@ def my_collect(students)
   students.each do |student|
     student.split(" ").first 
     while  counter < languages.length 
-    yield(languages[i]).upcase 
+    yield(languages).upcase 
   end 
   students
 end 
