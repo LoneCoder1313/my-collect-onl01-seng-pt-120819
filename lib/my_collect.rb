@@ -1,8 +1,6 @@
 def my_collect(students)
-    my_collect.each do |student|
-    student.split(",").first 
-    puts students
+    my_collect.each do |name|
+    name.split(" ").first 
   end 
-  students
 end 
 
